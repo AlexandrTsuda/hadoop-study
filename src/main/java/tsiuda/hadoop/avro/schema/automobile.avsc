@@ -1,0 +1,25 @@
+{
+	"namespace":"tsiuda.hadoop.avro.model",
+	"type":"record",
+	"name":"Automobile",
+	"fields":[
+		{
+			"name":"mode    lName",
+			"type":"string"
+		},
+		{
+			"name":"make",
+			"type":"string"
+		},
+		{
+			"name":"modelYear",
+			"type":"int"
+		},
+		{
+			"name":"passengerCapacity",
+			"type":"int"
+		}
+
+	]
+
+}
